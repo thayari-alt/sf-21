@@ -1,0 +1,87 @@
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main, header {
+  flex-shrink: 0;
+}
+
+main {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header, .footer {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #ddd;
+  display: flex;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu_item {
+  list-style-type: none;
+  margin-left: 1px;
+  border-radius: 15px;
+  padding: 2px 12px 4px;
+}
+
+.nav-menu_item:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.logo {
+  width: 60px;
+}
+
+.row {
+  display: flex;  
+}
+
+.info {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.knowledge {
+  margin-left: auto;
+  max-width: 30%;
+}
